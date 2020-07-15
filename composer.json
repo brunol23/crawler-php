@@ -1,0 +1,25 @@
+{
+    "name": "bruno/desafio1",
+    "authors": [
+        {
+            "name": "BrunoLuna23",
+            "email": "araujo_bruno2012@hotmail.com"
+        }
+    ],
+    "keywords": [
+        "bot",
+        "SpaceJam"
+    ],
+    "require": {
+        "symfony/dom-crawler": "^3.2",
+        "symfony/css-selector": "^3.0",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Forseti\\Bot\\SpaceJam\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+
+}
